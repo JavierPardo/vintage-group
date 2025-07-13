@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   output: "export",
   images: {
     unoptimized: true,
-  }
+  },
+  basePath: '/vintage-group',
 };
 
 export default nextConfig;
