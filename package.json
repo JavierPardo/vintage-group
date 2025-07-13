@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "predeploy": "next build",
-    "deploy": "next export --outdir out",
+    "deploy": "next export --outdir out && gh-pages --dist out",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
